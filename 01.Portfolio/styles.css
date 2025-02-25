@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap");
+
+html {
+  box-sizing: border-box;
+  font-family: 'IBM Plex Mono';
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  background: #f5f5f5;
+  padding: 5em 10em;
+}
+
+.container {
+  background: #080808;
+  border-radius: 0.9em;
+  min-width: 80em;
+  max-width: 80em;
+  margin: 0 auto;
+}
+
+header nav {
+  display: flex;
+  background: #1b1b1b;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: 5em;
+  margin-right: 5em;
+  border-bottom-left-radius: 0.5em;
+  border-bottom-right-radius: 0.5em;
+  padding: 0.6em;
+
+}
+
+header nav .links {
+  display: flex;
+  gap: 5em;
+}
+
+header nav .links li {
+  display: block;
+}
+
+header nav .links li a {
+  color: #f5f5f5;
+  text-decoration: none;
+  font-size: 0.8em;
+}
+
+header nav .icons {
+  display: flex;
+  gap: 2em;
+  padding-left: 6em;
+}
+
+header nav .icons li {
+  display: block;
+}
+
+main {
+  display: flex;
+  padding: 6em;
+  gap: 3em;
+}
+
+main aside h1 {
+  color: #f6f6f6;
+  font-size: 1.5em;
+  padding-bottom: 1.2em;
+}
+
+main aside p {
+  color: #6c6a6d;
+  padding-bottom: 0.8em;
+  max-width: 61ch;
+}
+
+main aside a {
+  text-decoration: none;
+  color: #f6f6f6;
+  background: #3f8e00;
+  padding: 0.9em 3.5em;
+  border-radius: 0.3em;
+}
+
+main img {
+  border-radius: 20em;
+  position: relative;
+  top: -2em;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  padding: 0 6em;
+}
+
+footer p {
+  color: #f6f6f6;
+}
+
+footer ul {
+  display: flex;
+  gap: 5em;
+  position: relative;
+  left: -3em;
+  top: -1em;
+  padding-bottom: 1em;
+}
+
+footer ul li {
+  display: block;
+  border: 1px solid #f6f6f6;
+  border-radius: 0.5em;
+  padding: 1em 2em;
+  padding-bottom: 0.5em;
+}
+
+
+
